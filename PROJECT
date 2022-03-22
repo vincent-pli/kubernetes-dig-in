@@ -1,0 +1,6 @@
+domain: ibm.dev
+layout:
+- go.kubebuilder.io/v3
+projectName: kubernetes-dig-in
+repo: ibm.dev/kubernetes-dig-in
+version: "3"
