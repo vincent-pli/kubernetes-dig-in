@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: kubernetes-dig-in
 repo: ibm.dev/kubernetes-dig-in
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: ibm.dev
+  group: research
+  kind: Digin
+  path: ibm.dev/kubernetes-dig-in/api/v1
+  version: v1
 version: "3"

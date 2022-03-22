@@ -1,0 +1,6 @@
+apiVersion: research.ibm.dev/v1
+kind: Digin
+metadata:
+  name: digin-sample
+spec:
+  # TODO(user): Add fields here

@@ -1,0 +1,24 @@
+# permissions for end users to edit digins.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: digin-editor-role
+rules:
+- apiGroups:
+  - research.ibm.dev
+  resources:
+  - digins
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - research.ibm.dev
+  resources:
+  - digins/status
+  verbs:
+  - get
